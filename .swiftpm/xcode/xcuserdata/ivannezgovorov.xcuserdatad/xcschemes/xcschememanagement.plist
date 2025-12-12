@@ -4,12 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AnimationGalaxySPM.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>GalaxySplash.xcscheme_^#shared#^_</key>
+		<key>VersaillesSplendor.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -27,12 +22,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>ChâteauRoyale</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ChâteauRoyaleTests</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>GalaxySplash</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>GalaxySplashTests</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>VersaillesSplendor</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>VersaillesSplendorTests</key>
 		<dict>
 			<key>primary</key>
 			<true/>

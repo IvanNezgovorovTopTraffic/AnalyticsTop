@@ -4,24 +4,24 @@
 import PackageDescription
 
 let package = Package(
-    name: "GalaxySplash",
+    name: "VersaillesSplendor",
     platforms: [.iOS(.v15), .macOS(.v12), .watchOS(.v8), .tvOS(.v15)],
     products: [
-        .library(name: "GalaxySplash", targets: ["GalaxySplash"]),
+        .library(name: "VersaillesSplendor", targets: ["VersaillesSplendor"]),
     ],
     dependencies: [
         .package(url: "https://github.com/OneSignal/OneSignal-iOS-SDK", from: "5.0.0"),
     ],
     targets: [
         .target(
-            name: "GalaxySplash",
+            name: "VersaillesSplendor",
             dependencies: [
                 .product(name: "OneSignalFramework", package: "OneSignal-iOS-SDK")
             ]
         ),
         .testTarget(
-            name: "GalaxySplashTests",
-            dependencies: ["GalaxySplash"]
+            name: "VersaillesSplendorTests",
+            dependencies: ["VersaillesSplendor"]
         ),
     ]
 )
